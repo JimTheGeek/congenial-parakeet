@@ -58,7 +58,8 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: Australia/Sydney
         run: |
-          hugo new site hugosite    
+          hugo new site hugosite \
+            --force
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
