@@ -2,7 +2,7 @@
 
 baseURL = "http://blog.itfuckenwimdy.cloud/congenial-parakeet/"
 languageCode = "en-us"
-title = "Today I Learned — Parakeet"
+title = "Today I Learned —- Parakeet"
 
 # Build static site to /docs folder so GitHub pages can serve it.
 publishDir = "../docs"
